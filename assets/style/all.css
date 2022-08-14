@@ -11563,10 +11563,118 @@ fieldset:disabled .btn {
   }
 }
 
+body {
+  background-color: #1C1C1C;
+}
+
 .index__h1 {
   color: #00cc99;
   font-size: 20px;
   font-weight: 400;
+}
+
+.data li {
+  list-style: none;
+}
+
+.navbar-brand img {
+  height: 30px;
+}
+
+.secondPage {
+  background-color: #2D2D2D;
+  height: 50vh;
+}
+
+.secondPage img {
+  height: 30px;
+}
+
+.secondPage .item:first-child {
+  color: white;
+}
+
+.secondPage .item {
+  color: #a09999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.secondPage .item .green_line {
+  height: 50px;
+  background-color: white;
+}
+
+.secondPage .active {
+  color: white;
+  border-radius: 15px;
+  background-color: #1C1C1C;
+}
+
+.secondPage .active img {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#09ACF5), to(#62DB54));
+  background-image: -o-linear-gradient(top, #09ACF5, #62DB54);
+  background-image: linear-gradient(180deg, #09ACF5, #62DB54);
+}
+
+.nav {
+  background-color: #2D2D2D;
+}
+
+.nav .nav-item img {
+  height: 30px;
+}
+
+.main_page {
+  color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-image: url("../../assets/images/bg_home.jpg");
+}
+
+.main_page .Content {
+  background: transparent !important;
+}
+
+.main_page .Content .title .h1 {
+  font-size: 36px;
+  background: -webkit-linear-gradient(#09ACF5, #62DB54);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#09ACF5), to(#62DB54));
+  background-image: -o-linear-gradient(top, #09ACF5, #62DB54);
+  background-image: linear-gradient(180deg, #09ACF5, #62DB54);
+  -webkit-background-clip: text;
+  font-weight: bolder;
+  -webkit-text-fill-color: transparent;
+}
+
+.main_page .Content .title .subTitle {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.classIntroBtnGroup :last-child {
+  background-image: -webkit-gradient(linear, left top, right top, from(#09ACF5), to(#62DB54));
+  background-image: -o-linear-gradient(left, #09ACF5, #62DB54);
+  background-image: linear-gradient(90deg, #09ACF5, #62DB54);
+}
+
+.footer {
+  background-color: #2D2D2D;
+  color: #ccc;
+  font-weight: 700;
+  text-align: center;
 }
 
 /*# sourceMappingURL=all.css.map */

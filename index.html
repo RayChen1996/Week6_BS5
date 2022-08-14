@@ -5,51 +5,141 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Boostrap Index</title>
+    <title>首頁</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
     <link rel="stylesheet" href="./assets/style/all.css">
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
+
+
+
+    <div class="nav  justify-content-between  p-3 ">
+      <div class="navbar-brand" >
+        <img   src="./assets/images/logo.svg" alt="" srcset="">
       </div>
-    </nav>
+      <ul class="nav d-flex   justify-content-end ">
+        <li class="nav-item">
+          <a class="nav-link text-white active" aria-current="page" href="#">
+            <!-- <img src="./assets/images/account-circle.svg" alt="" srcset=""> -->
+            首頁
+          </a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link text-white" href="/ClassIntro.html">
+            <!-- <img src="./assets/images/account-circle.svg" alt="" srcset=""> -->
+            課程介紹            
+          </a>
+        </li>
+        <li class="nav-item text-white">          
+            <a class="nav-link text-white" href="#">
+              <img  src="./assets/images/account-circle.svg" alt="" srcset="">              
+              登入
+            </a>
+         
+        </li>
+      
+      </ul>
+    </div>
+    <div class="underLine d-flex " style="height: 2px;">
+      <div class="h-2"  style="height: 2px;"></div>
+      <div style="height: 2px;"></div>
+    </div>
+
+
+
+
+
 
     
-<div class="container">
+
+
+<div class="main_page bg-image d-flex justify-content-center align-items-center">
+
+
+  <!-- <img class="img-fluid" src="./assets/images/bg_home.jpg" alt="bg"> -->
+
+
+
+   <div class="Content p-5 border border-success p-2 mb-2 border-opacity-75 m-5 ">
+
+    <div class="title">
+      <div class="h1">
+        全台最豐富的程式家教
+      </div>
+      
+      <div class="subTitle">
+        在實踐中化理想為現實
+      </div>
+    </div>
+
+    <div class="Descript">
+      全台最專業師資｜到府程式家教｜客製化課程
+    </div>
+
+
+   </div>
+
+
+
+
+
+</div>
+
+
+<div class="secondPage d-flex justify-content-around ">
+
+
+  <div class="item">
+    <p>
+      手把手帶你<br> 
+      親自到家教到會
+    </p>
+    <span class="green_line"></span>
+  </div>
+  <div class="item ">
+    <img  src="./assets/images/code-tags.svg" alt="" srcset="">
+    <div class="title p-3">
+      超過 100 種專業課程
+    </div>
+    <div class="Descript">
+      學習標準化的電腦形式語言 <br>
+      培養運算思維和邏輯素養
+    </div>
+  </div>
+  <div class="item">
+    <img src="./assets/images/rocket-launch.svg" alt="" srcset="">
+    <div class="title p-3">
+      高效學習
+    </div>
+    <div class="Descript">
+      客製化專屬課表 <br> 讓學習變簡單
+    </div>
+  </div>
+  <div class="item active m-5 p-5">
+    <img src="./assets/images/map-marker.svg" alt="" srcset="">
+    <div class="title p-3">
+      指定地點
+    </div>
+    <div class="Descript">
+      專業老師到你指定的地點<br> 一對一高效學習
+    </div>
+  </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="container">
   <h1 class="index__h1">這是一段話</h1>
   <div class="alert alert-primary" role="alert">
     A simple primary alert—check it out!
@@ -78,12 +168,12 @@
 </div>
 
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
   Launch demo modal
-</button>
+</button> -->
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -99,11 +189,11 @@
       </div>
     </div>
   </div>
-</div>
+</div>  -->
 
 
-    <footer class="footer">
-      footer
+    <footer class="footer p-2">
+      Coding Home © 2022 All Rights Reserved
     </footer>
 
     <script src="./assets/js/vendors.js"></script>
